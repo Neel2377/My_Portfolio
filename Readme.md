@@ -3,7 +3,7 @@
 Welcome to my personal portfolio website! This project showcases my skills, projects, and experience as a developer.
 
 # My Portfolio Link
-- Link: https://my-portfolio-theta-ebon-ljbg8z951i.vercel.app/#contact
+- Link: https://my-portfolio-theta-ebon-ljbg8z951i.vercel.app/#home
 
 ## Features
 - Responsive design using HTML, CSS, and Bootstrap
