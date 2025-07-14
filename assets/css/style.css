@@ -246,12 +246,14 @@ p {
     background-color: #171717;
     padding: 20px;
     border: 1px solid #171717;
-    border-radius: 10px;
+    border-radius: 20px;
     display: flex;
     align-items: center;
     gap: 15px;
     height: 120px;
     animation: fadeInUp 2s ease-in-out;
+    color: white;
+    min-width: 280px;
 }
 
 /* Icon */
