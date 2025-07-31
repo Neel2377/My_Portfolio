@@ -257,27 +257,49 @@ p {
 }
 
 /* Icon */
-.info-icon {
-    color: #007BFF;
-    font-size: 35px;
-    animation: zoomIn 2.2s ease-in-out;
+.social-link {
+    font-size: 2.5rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+    display: inline-block;
 }
 
-/* Titles and Text */
-.info-title {
-    color: #007BFF;
-    font-size: 15px;
-    animation: fadeIn 2.5s ease-in-out;
+/* Hover animation */
+.social-link:hover {
+    transform: scale(1.2) rotate(10deg);
 }
 
-.info-text {
-    font-weight: 600;
-    font-size: 14px;
-    transition: color 0.3s ease;
+/* Icon Colors */
+.facebook .info-icon {
+    color: #1877f2;
+    /* Facebook Blue */
 }
 
-.info-text:hover {
-    color: #007BFF;
+.facebook .info-icon:hover {
+    color: #145dbf;
+}
+
+.linkedin .info-icon {
+    color: #0a66c2;
+}
+
+.linkedin .info-icon:hover {
+    color: #084d9c;
+}
+
+.instagram .info-icon {
+    color: #e1306c;
+}
+
+.instagram .info-icon:hover {
+    color: #e1306c;
+}
+
+.github .info-icon {
+    color: #ffffff;
+}
+
+.github .info-icon:hover {
+    color: #ffffff;
 }
 
 /* Button */
